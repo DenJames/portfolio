@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family:'Montserrat', Geneva, Verdana, sans-serif;
+}
+
+.dev_header {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.my_image {
+    width: 23rem;
+    -webkit-box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+}
+
+#intruduction {
+    padding-top: 4rem;
+    height: 80vh;
+}
+
+.intro_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.my_intro_text {
+    margin-top: -3.5rem;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+}
+
+.my_intro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.my_intro_banner {
+    background-color: lightseagreen;
+    width: 46%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#intro_banner_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -6rem;
+    z-index: -1;
+    margin-left: -4rem;
+}
+
+#intro_banner_text {
+    color: white;
+    margin-right: 2rem;
+    font-size: 24px;
+}
+
+#skill_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem; margin-bottom: 4rem;
+}
+
+.skill_icon {
+    font-size:55px;
+    margin-left: 2rem;
+    transition: transform .3s;
+}
+
+.skill_icon:hover {
+    transform: scale(1.5);
+}
+
+.icons_section {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6rem;
+}
+
+.tour_button {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    margin-left: 1rem;
+    font-size: 18px;
+    border: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 5rem;
+    width: 10rem;
+}
+
+.project_info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.project_info>img{
+    margin-top: 1rem;
+}
+
+.work_img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.2rem;
+    transition: transform .5s;
+    -webkit-box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 8px 12px -7px rgba(0,0,0,0.75);
+}
+
+.work_img:hover {
+    transform: scale(1.2);
+}
+
+.center_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colored_section {
+    color: white;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.list_projects {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form_input {
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+}
+
+form>button {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    color: white;
+    border-style: none;
+    transition: transform .5s;
+    border-radius: 0.3rem;
+}
+
+form>button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
